@@ -14,23 +14,23 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          I am a an undergraduate from the Faculty of Engineering and
+          Technology,Buea-Cameroon, I have 3 years of experience building and
+          desgining software. Currently, I love to work on web application using
+          technologies like React, Tailwind, Next JS and GraphQL,I am and expert
+          in game development using Unity and #C as a scripted language. Am at
+          beginner level for database administration.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+          I am a an undergraduate from the Faculty of Engineering and
+          Technology,Buea-Cameroon, I have 3 years of experience building and
+          desgining software. Currently, I love to work on web application using
+          technologies like React, Tailwind, Next JS and GraphQL,I am and expert
+          in game development using Unity and #C as a scripted language. Am at
+          beginner level for database administration.
         </p>
       </div>
     </div>

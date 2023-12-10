@@ -1,6 +1,24 @@
 import React from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const sendEmail = () => {
+    // Your EmailJS Service ID, Template ID, and User ID
+    const serviceId = "YOUR_EMAILJS_SERVICE_ID";
+    const templateId = "YOUR_EMAILJS_TEMPLATE_ID";
+    const userId = "YOUR_EMAILJS_USER_ID";
+
+    // Use the emailjs.send() function to send the email
+    emailjs
+      .send(serviceId, templateId, { message: "Your message here" }, userId)
+      .then((response) => {
+        console.log("Email sent!", response.status, response.text);
+      })
+      .catch((error) => {
+        console.error("Error sending email:", error);
+      });
+  };
+
   return (
     <div
       name="contact"
@@ -15,11 +33,7 @@ const Contact = () => {
         </div>
 
         <div className=" flex justify-center items-center">
-          <form
-            action="https://getform.io/f/61c99527-2b15-42cf-9b55-ad37d2f7daa6"
-            method="POST"
-            className=" flex flex-col w-full md:w-1/2"
-          >
+          <form method="POST" className=" flex flex-col w-full md:w-1/2">
             <input
               type="text"
               name="name"
@@ -39,7 +53,10 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button
+              onClick={sendEmail()}
+              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+            >
               Let's talk
             </button>
           </form>
