@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com/in/mondoa-robert-nasoa-ndive-aa2a5a29a",
+      href: "https://linkedin.com/in/mondoa-robert-nasoa-ndive",
       style: "rounded-tr-md",
     },
     {

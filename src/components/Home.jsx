@@ -11,11 +11,11 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Software Engineer (specifically) <br /> working on web
-            development and Devops applications
+          <h2 className="text-3xl sm:text-7xl font-bold text-white" id="mob">
+            I'm a Software Engineer skilled in web development and devoploment
+            of mobile applications
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-500 py-4 max-w-md" id="descrip">
             I am a an undergraduate from the Faculty of Engineering and
             Technology,Buea-Cameroon, I have 3 years of experience building and
             desgining software. Currently, I love to work on web application
@@ -29,10 +29,10 @@ const Home = () => {
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-green-500 to-yellow-500 cursor-pointer"
             >
               Portfolio
-              <span className="group-hover:rotate-90 duration-300">
+              <span className="group-hover:rotate-90 duration-600">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
@@ -43,7 +43,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-3xl mx-auto w-2/3 md:w-full"
           />
         </div>
       </div>

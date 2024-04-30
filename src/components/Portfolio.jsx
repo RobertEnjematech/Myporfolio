@@ -57,10 +57,12 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
+                  <a href="https://dashboarddisplay.vercel.app">Demo</a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                  <a href="https://github.com/Robert-Ndive-tech/dashboard">
+                    Code
+                  </a>
                 </button>
               </div>
             </div>
