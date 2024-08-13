@@ -16,17 +16,6 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20" id="descrip">
-          I am a final year undergraduate from the Faculty of Engineering and
-          Technology,Buea-Cameroon, I have 5 years of experience building and
-          desgining software. Currently, I love to work on web application using
-          technologies like React, Next JS,Django,PHP and GraphQL,I am and
-          expert in game development using Unity and #C as a scripted language.
-          Am at advanced level for database administration.
-        </p>
-
-        <br />
-
         <p className="text-xl" id="descrip">
           I am a final year undergraduate from the Faculty of Engineering and
           Technology,Buea-Cameroon, I have 5 years of experience building and
