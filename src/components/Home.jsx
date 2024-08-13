@@ -16,12 +16,9 @@ const Home = () => {
             of mobile applications
           </h2>
           <p className="text-gray-500 py-4 max-w-md" id="descrip">
-            I am a an undergraduate from the Faculty of Engineering and
-            Technology,Buea-Cameroon, I have 3 years of experience building and
-            desgining software. Currently, I love to work on web application
-            using technologies like React, Tailwind, Next JS and GraphQL,I am
-            and expert in game development using Unity and #C as a scripted
-            language, Am at beginner level for database administration.
+            Welcome to the world of An Engineering Developer who is currently a
+            final year student in the University of Buea,I am capable of giving
+            life to your technical idealogical solutions
           </p>
 
           <div>
