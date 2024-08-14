@@ -1,36 +1,59 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/Vims.png";
+import Vims from "../assets/portfolio/Vims.png";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import Resq from "../assets/portfolio/Resq.png";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import Smartsearch from "../assets/portfolio/SmartSearch.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: Vims,
+      descript:
+        "A Vehicle monitoring systems  which uses real time scanning to store and follow through",
+      code: "https://dashboarddisplay.vercel.app",
+      demo: "https://github.com/Robert-Ndive-tech/dashboard",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: installNode,
+      descript:
+        "A set of pre-arrange commands used in preparing a new developers enviroment",
+      code: "",
+      demo: "",
     },
     {
       id: 3,
       src: navbar,
+      descript:
+        "A mobile responsive funtional dependencies used in performing good usability  access",
+      code: "",
+      demo: "",
     },
     {
       id: 4,
       src: reactSmooth,
+      descript: "",
+      code: "",
+      demo: "",
     },
     {
       id: 5,
-      src: installNode,
+      src: Resq,
+      descript:
+        "A disaster very responsive and monitoring system which manages enviromental changes within  our various cultural activities",
+      code: "https://github.com/MaivaC/CEF-440-Internet-Programming.-Group-18",
+      demo: "",
     },
     {
       id: 6,
-      src: reactWeather,
+      src: Smartsearch,
+      descript:
+        "This is an image lost but found and search mobile application powered by Artifiicial intelligence,It is a 4 months old service still under production till date",
+      code: "https://github.com/tchuidjanjordan/Codesample--final-task/tree/master",
+      demo: "",
     },
   ];
 
@@ -48,21 +71,20 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, descript, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
+              <div>{descript}</div>
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href="https://dashboarddisplay.vercel.app">Demo</a>
+                  <a href={demo}>Demo</a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href="https://github.com/Robert-Ndive-tech/dashboard">
-                    Code
-                  </a>
+                  <a href={code}>Code</a>
                 </button>
               </div>
             </div>
