@@ -31,7 +31,3 @@
     ); /* Color in the middle of the blink */
   }
 }
-* {
-  color: rgb(11, 14, 13);
-  animation: blink-gradient 50.5s infinite;
-}
