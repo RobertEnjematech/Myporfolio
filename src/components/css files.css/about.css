@@ -1,7 +1,10 @@
 #mob {
-  color: blueviolet;
+  color: rgb(195, 226, 43);
 }
 
 #descrip {
-  color: rgb(43, 226, 144);
+  color: rgb(6, 18, 13);
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }

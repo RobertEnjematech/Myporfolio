@@ -8,9 +8,30 @@
 
 @layer base {
   html {
-    font-family: "Raleway", sans-serif;
+    font-family: "DOSIS";
+  }
+}
+
+@keyframes blink-gradient {
+  0%,
+  100% {
+    background: linear-gradient(
+      45deg,
+      #0f0604ae,
+      #ce461d,
+      #e5aaa5
+    ); /* Color at the start and end */
+  }
+  50% {
+    background: linear-gradient(
+      45deg,
+      #00c6ff,
+      #0072ff,
+      #2659b1
+    ); /* Color in the middle of the blink */
   }
 }
 * {
-  color: rgb(43, 226, 144);
+  color: rgb(11, 14, 13);
+  animation: blink-gradient 50.5s infinite;
 }
