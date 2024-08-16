@@ -17,9 +17,9 @@
   100% {
     background: linear-gradient(
       45deg,
-      #0f0604ae,
-      #ce461d,
-      #e5aaa8
+      #177287ae,
+      #da3c07,
+      #100504
     ); /* Color at the start and end */
   }
   50% {
@@ -27,7 +27,11 @@
       45deg,
       #00c6ff,
       #0072ff,
-      #2659b2
+      #2659b1
     ); /* Color in the middle of the blink */
   }
+}
+* {
+  color: rgb(11, 14, 13);
+  animation: blink-gradient 50.5s infinite;
 }
