@@ -1,7 +1,9 @@
-import React from "react";
-import HeroImage from "../assets/heroImage.png";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-scroll";
+import React from 'react';
+
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import { Link } from 'react-scroll';
+
+import HeroImage from '../assets/heroImage.png';
 
 const Home = () => {
   return (
@@ -41,7 +43,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-3xl mx-auto w-2/4 md:w-full"
+            className="rounded-3xl mx-auto w-2/4 md:w-full animate-pulse"
           />
         </div>
       </div>

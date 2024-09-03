@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
-import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
+import css from '../assets/css.png';
+import github from '../assets/github.png';
+import graphql from '../assets/graphql.png';
+import html from '../assets/html.png';
+import javascript from '../assets/javascript.png';
+import nextjs from '../assets/nextjs.png';
+import reactImage from '../assets/react.png';
+import tailwind from '../assets/tailwind.png';
 
 const Experience = () => {
   const techs = [
@@ -51,7 +51,7 @@ const Experience = () => {
       id: 7,
       src: graphql,
       title: "GraphQL",
-      style: "shadow-pink-400",
+      style: "shadow-pink-500",
     },
     {
       id: 8,
