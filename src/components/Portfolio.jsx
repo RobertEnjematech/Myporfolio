@@ -36,9 +36,9 @@ const Portfolio = () => {
     {
       id: 4,
       src: reactSmooth,
-      descript: "",
-      code: "",
-      demo: "",
+      descript: "A dating app depending on close proximity that uses react to create a smooth user experience",
+      code: "https://github.com/RobertEnjematech/newcloseecounter.git",
+      demo: "https://closeencounter-murex.vercel.app",
     },
     {
       id: 5,

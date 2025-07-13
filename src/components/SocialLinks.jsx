@@ -56,7 +56,7 @@ const SocialLinks = () => {
           Whatsapp <FaComment size={35} />
         </>
       ),
-      href: "https://wa.me/650043238",
+      href: "https://wa.me/672241738",
       style: "rounded-br-md",
     },
   ];
