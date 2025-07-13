@@ -1,10 +1,11 @@
-import React from "react";
-import Vims from "../assets/portfolio/Vims.png";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import Resq from "../assets/portfolio/Resq.png";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import Smartsearch from "../assets/portfolio/SmartSearch.png";
+import React from 'react';
+
+import installNode from '../assets/portfolio/installNode.jpg';
+import navbar from '../assets/portfolio/navbar.jpg';
+import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
+import Resq from '../assets/portfolio/Resq.png';
+import Smartsearch from '../assets/portfolio/SmartSearch.png';
+import Vims from '../assets/portfolio/Vims.png';
 
 const Portfolio = () => {
   const portfolios = [
@@ -13,7 +14,7 @@ const Portfolio = () => {
       src: Vims,
       descript:
         "A Vehicle monitoring systems  which uses real time scanning to store and follow through",
-      code: "https://dashboarddisplay.vercel.app",
+      code: "https://vehicledashboard.vercel.app",
       demo: "https://github.com/Robert-Ndive-tech/dashboard",
     },
     {
