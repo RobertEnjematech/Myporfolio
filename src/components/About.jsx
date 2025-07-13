@@ -1,5 +1,7 @@
-import React from "react";
-import "./css files.css/about.css";
+import './css files.css/about.css';
+
+import React from 'react';
+
 const About = () => {
   return (
     <div
