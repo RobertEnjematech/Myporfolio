@@ -31,6 +31,6 @@
     ); /* Color in the middle of the blink */
 
 * {
-  color: rgb(38, 206, 235);
+  color: rgb(239, 240, 240);
   animation: blink-gradient 50.5s infinite;
 }
